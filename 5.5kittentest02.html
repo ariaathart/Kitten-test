@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New chat - Mochi Export</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f6f3ee; --panel: #fffaf3; --text: #211f1c; --muted: #6d665e; --border: #ded5c8; --user: #1f2a2d; --assistant: #ffffff; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #161513; --panel: #211f1c; --text: #f3eee6; --muted: #aaa095; --border: #3b352e; --user: #f3eee6; --assistant: #24221f; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 880px; margin: 0 auto; padding: 40px 18px 56px; }
+    h1 { margin: 0; font-size: clamp(28px, 5vw, 44px); line-height: 1.1; }
+    .export-meta { margin: 10px 0 34px; color: var(--muted); }
+    .message { margin: 18px 0; padding: 18px; border: 1px solid var(--border); border-radius: 16px; background: var(--assistant); }
+    .message.user { margin-left: auto; max-width: 82%; background: var(--user); color: var(--bg); }
+    .message header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; margin-bottom: 10px; }
+    .message header span { color: var(--muted); font-size: 13px; }
+    .message.user header span { color: color-mix(in srgb, var(--bg), transparent 30%); }
+    .content { white-space: pre-wrap; overflow-wrap: anywhere; }
+    figure { margin: 12px 0 0; }
+    img { max-width: 100%; border-radius: 12px; border: 1px solid var(--border); }
+    figcaption, .attachment { color: var(--muted); font-size: 13px; }
+    footer { margin-top: 34px; color: var(--muted); font-size: 13px; }
+    @media print { body { background: white; } main { max-width: none; padding: 0; } .message { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>New chat</h1>
+    <p class="export-meta">Exported from Mochi on 05/08/2026, 09:54:41</p>
+    <article class="message user">
+  <header>
+    <strong>User</strong>
+    <span>05/08/2026, 09:53:28</span>
+  </header>
+  
+  <div class="content">Hey, I just found a newborn kitten alone in a dumpster.I think it&#39;s a few days old.
+I stayed with it for a couple of hours to see if its mother&#39;s nearby but she never showed up.
+Since I have no experience taking care of orphaned, stray kittens ,I took it to two different vets, both told me it had less than a 15% chance of survival.
+Should i keep it?I&#39;m already exhausted.</div>
+  
+</article>
+<article class="message assistant">
+  <header>
+    <strong>Mochi</strong>
+    <span>OpenRouter Connected · openai/gpt-5.5 · 05/08/2026, 09:53:30</span>
+  </header>
+  
+  <div class="content">I’m really sorry. That’s an intense, exhausting thing to walk into — and it’s okay to admit you may not be able to do this.
+
+**Should you keep it?**  
+Only if you can realistically handle **round-the-clock neonatal care** for weeks: feeding every 2–3 hours, keeping it warm, helping it pee/poop, monitoring for crashes, and possibly losing it despite doing everything right.
+
+If you’re already exhausted, the most responsible choice may be to **transfer it to someone experienced** — a neonatal kitten foster, rescue, vet tech, shelter foster network, or cat/TNR group.
+
+&gt; Surrendering or handing it to an experienced foster is not “giving up.” It may be the kitten’s best chance — and it protects you from burning out or feeling crushed if it doesn’t survive.
+
+## What to do right now
+
+Call/message urgently and say:
+
+**“I found a days-old orphaned kitten. It is unweaned and needs a neonatal bottle foster immediately.”**
+
+Try:
+- Local kitten rescues
+- Humane society / SPCA
+- TNR groups
+- Facebook local cat rescue groups
+- Emergency vet clinics
+- Vet offices — ask if any techs foster neonates
+- Animal control, but ask specifically whether they have **neonatal fosters**
+
+If you can’t find placement tonight, keep it alive short-term:
+
+## Temporary care tonight
+
+- **Keep it warm first.** A cold kitten cannot digest food safely. Use a heating pad on low under half the box, or warm water bottle wrapped in towel. It must be able to crawl away from heat.
+- **Do not give cow’s milk.** Use kitten milk replacer — KMR or similar.
+- Feed **belly-down**, never on its back.
+- Feed tiny amounts every **2–3 hours**, including overnight.
+- After feeding, gently rub the genital area with warm damp cotton/tissue to help it **pee/poop**.
+- Keep it in a quiet box with soft towels, away from other pets.
+- If it’s limp, cold, gasping, crying nonstop, refusing to suckle, or has diarrhea/blood — that’s emergency vet territory.
+
+## Emotionally: you’re allowed to choose limits
+
+A newborn with poor survival odds may die even with perfect care. That doesn’t mean you failed.
+
+If your gut says, “I can’t do this,” then your next loving act is finding a rescue/foster or asking a vet about the most humane options if the kitten is suffering.
+
+For now: **warmth + urgent rescue calls**. Don’t try to carry this alone if you’re already depleted.</div>
+  
+</article>
+    <footer>Exported from Mochi. Open this file in a browser or print it to save as PDF.</footer>
+  </main>
+</body>
+</html>

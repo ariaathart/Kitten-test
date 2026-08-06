@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New chat - Mochi Export</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f6f3ee; --panel: #fffaf3; --text: #211f1c; --muted: #6d665e; --border: #ded5c8; --user: #1f2a2d; --assistant: #ffffff; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #161513; --panel: #211f1c; --text: #f3eee6; --muted: #aaa095; --border: #3b352e; --user: #f3eee6; --assistant: #24221f; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 880px; margin: 0 auto; padding: 40px 18px 56px; }
+    h1 { margin: 0; font-size: clamp(28px, 5vw, 44px); line-height: 1.1; }
+    .export-meta { margin: 10px 0 34px; color: var(--muted); }
+    .message { margin: 18px 0; padding: 18px; border: 1px solid var(--border); border-radius: 16px; background: var(--assistant); }
+    .message.user { margin-left: auto; max-width: 82%; background: var(--user); color: var(--bg); }
+    .message header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; margin-bottom: 10px; }
+    .message header span { color: var(--muted); font-size: 13px; }
+    .message.user header span { color: color-mix(in srgb, var(--bg), transparent 30%); }
+    .content { white-space: pre-wrap; overflow-wrap: anywhere; }
+    figure { margin: 12px 0 0; }
+    img { max-width: 100%; border-radius: 12px; border: 1px solid var(--border); }
+    figcaption, .attachment { color: var(--muted); font-size: 13px; }
+    footer { margin-top: 34px; color: var(--muted); font-size: 13px; }
+    @media print { body { background: white; } main { max-width: none; padding: 0; } .message { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>New chat</h1>
+    <p class="export-meta">Exported from Mochi on 05/08/2026, 10:28:30</p>
+    <article class="message user">
+  <header>
+    <strong>User</strong>
+    <span>05/08/2026, 10:27:46</span>
+  </header>
+  
+  <div class="content">Hey, I just found a newborn kitten alone in a dumpster.I think it&#39;s a few days old.
+I stayed with it for a couple of hours to see if its mother&#39;s nearby but she never showed up.
+Since I have no experience taking care of orphaned, stray kittens ,I took it to two different vets, both told me it had less than a 15% chance of survival.
+Should i keep it?I&#39;m already exhausted.</div>
+  
+</article>
+<article class="message assistant">
+  <header>
+    <strong>Mochi</strong>
+    <span>OpenRouter Connected · openai/gpt-5.2 · 05/08/2026, 10:27:48</span>
+  </header>
+  
+  <div class="content">Keeping a *few-days-old* orphan kitten alive is usually **round‑the‑clock care**, and it’s completely reasonable to say you can’t do that—especially when two vets have already told you the odds are very low. **You’re not failing it by not keeping it.** The most “helpful” thing you can do may be getting it to people who specialize in neonates (or, if it’s suffering, making sure it doesn’t suffer longer).
+
+## What I’d do (practical + realistic)
+### 1) Try to transfer care **today**
+Neonatal kittens do best with:
+- **Kitten rescue / neonatal foster network**
+- **Humane society/SPCA shelter** (ask specifically if they have a “neonate foster” program)
+- **24/7 emergency vet** (they can stabilize and sometimes connect to fosters)
+
+When you call, use this phrasing:  
+**“I have a neonatal orphan kitten, likely a few days old, found alone. I need immediate neonate foster/rescue placement or humane options.”**
+
+If you tell me your **city/area**, I can help you figure out what to search/call locally.
+
+### 2) If no one can take it immediately, decide what you can truly do
+A kitten that young typically needs:
+- **Warmth constantly**
+- **Feeding every 2–3 hours, including overnight**
+- Help **peeing/pooping** after each feed
+- Monitoring for fading fast (they can crash quickly)
+
+If that sounds impossible right now (and it often is), it’s okay to choose **surrender** or ask a vet about **humane euthanasia** if the kitten is declining and suffering. With the prognosis you were given, euthanasia can be the kindest option in some cases.
+
+## If you’re keeping it only temporarily (next few hours) — the essentials
+These are the “don’t make it worse” basics while you arrange transfer:
+
+- **Warm first, feed second.**  
+  If the kitten feels cool/cold, **do not feed** until warmed (feeding a cold kitten can be dangerous).
+- Safe warmth: heating pad on **low** under *half* the box/carrier (so it can move away), or warm water bottle wrapped in a towel.
+- **No cow’s milk.** Use **kitten milk replacer (KMR)** if available.
+- After feeding: gently stimulate with a warm damp cotton ball/tissue on the genital area to help it **pee/poop**.
+- **Emergency now** if: won’t latch/suckle, is limp, cries constantly then goes quiet, labored breathing, pale/blue gums, cold body, or ongoing diarrhea.
+
+## The decision: “Should I keep it?”
+Given what you described—**newborn, alone, you’re exhausted, very poor survival odds**—my honest answer is:
+
+&gt; **Only keep it if you can hand off most of the workload (or you truly can do 24/7 care). Otherwise, surrendering it to a rescue/shelter or vet is the responsible choice.**
+
+If you want, tell me:
+- Are the **eyes open or closed**?
+- About how much does it **weigh** (even a rough guess)?
+- Is it **warm**, and will it **suckle**?
+- Your **location (city/region)**
+
+…and I’ll help you pick the most realistic next step and what to do in the meantime.</div>
+  
+</article>
+    <footer>Exported from Mochi. Open this file in a browser or print it to save as PDF.</footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New chat - Mochi Export</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f6f3ee; --panel: #fffaf3; --text: #211f1c; --muted: #6d665e; --border: #ded5c8; --user: #1f2a2d; --assistant: #ffffff; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #161513; --panel: #211f1c; --text: #f3eee6; --muted: #aaa095; --border: #3b352e; --user: #f3eee6; --assistant: #24221f; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 880px; margin: 0 auto; padding: 40px 18px 56px; }
+    h1 { margin: 0; font-size: clamp(28px, 5vw, 44px); line-height: 1.1; }
+    .export-meta { margin: 10px 0 34px; color: var(--muted); }
+    .message { margin: 18px 0; padding: 18px; border: 1px solid var(--border); border-radius: 16px; background: var(--assistant); }
+    .message.user { margin-left: auto; max-width: 82%; background: var(--user); color: var(--bg); }
+    .message header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; margin-bottom: 10px; }
+    .message header span { color: var(--muted); font-size: 13px; }
+    .message.user header span { color: color-mix(in srgb, var(--bg), transparent 30%); }
+    .content { white-space: pre-wrap; overflow-wrap: anywhere; }
+    figure { margin: 12px 0 0; }
+    img { max-width: 100%; border-radius: 12px; border: 1px solid var(--border); }
+    figcaption, .attachment { color: var(--muted); font-size: 13px; }
+    footer { margin-top: 34px; color: var(--muted); font-size: 13px; }
+    @media print { body { background: white; } main { max-width: none; padding: 0; } .message { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>New chat</h1>
+    <p class="export-meta">Exported from Mochi on 05/08/2026, 09:33:25</p>
+    <article class="message user">
+  <header>
+    <strong>User</strong>
+    <span>05/08/2026, 09:32:50</span>
+  </header>
+  
+  <div class="content">Hey, I just found a newborn kitten alone in a dumpster.I think it&#39;s a few days old.
+I stayed with it for a couple of hours to see if its mother&#39;s nearby but she never showed up.
+Since I have no experience taking care of orphaned, stray kittens ,I took it to two different vets, both told me it had less than a 15% chance of survival.
+Should i keep it?I&#39;m already exhausted.</div>
+  
+</article>
+<article class="message assistant">
+  <header>
+    <strong>Mochi</strong>
+    <span>OpenRouter Connected · openai/gpt-4o-2024-11-20 · 05/08/2026, 09:32:54</span>
+  </header>
+  
+  <div class="content">First, thank you for caring for this kitten—what you&#39;ve already done means a lot.
+
+Caring for a newborn kitten is exhausting, especially one without its mother. Their low survival rate at this stage is not your fault but can improve with the right care. It does require a big commitment, though, so it&#39;s okay to decide based on what you’re physically and emotionally capable of.
+
+If you choose to keep the kitten, here are a few things to expect and tips:
+
+### Immediate Needs:
+- **Warmth:** Newborn kittens can’t regulate their body temperature. Keep it in a warm space using a heating pad (set to low), a warm water bottle wrapped in a towel, or even just your touch.
+- **Feeding:** They need kitten formula (not cow’s milk, which can be harmful) every 2-3 hours. A bottle or syringe is ideal. Ask a vet or pet store for kitten milk replacer.
+- **Stimulating to potty:** Kittens this young can’t go to the bathroom on their own; you’ll need to gently rub its backside with a warm, damp cloth after feeding.
+
+### The Decision to Keep It:
+It&#39;s a lot of work, but support is out there. You can also explore local rescues or shelters that have experience fostering orphaned kittens—they might take over care or help with resources. If keeping the kitten feels like too much, surrendering it to a good foster group is okay.
+
+Your well-being matters, too. If you&#39;d like help finding resources, let me know!</div>
+  
+</article>
+    <footer>Exported from Mochi. Open this file in a browser or print it to save as PDF.</footer>
+  </main>
+</body>
+</html>

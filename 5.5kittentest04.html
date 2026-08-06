@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New chat - Mochi Export</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f6f3ee; --panel: #fffaf3; --text: #211f1c; --muted: #6d665e; --border: #ded5c8; --user: #1f2a2d; --assistant: #ffffff; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #161513; --panel: #211f1c; --text: #f3eee6; --muted: #aaa095; --border: #3b352e; --user: #f3eee6; --assistant: #24221f; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 880px; margin: 0 auto; padding: 40px 18px 56px; }
+    h1 { margin: 0; font-size: clamp(28px, 5vw, 44px); line-height: 1.1; }
+    .export-meta { margin: 10px 0 34px; color: var(--muted); }
+    .message { margin: 18px 0; padding: 18px; border: 1px solid var(--border); border-radius: 16px; background: var(--assistant); }
+    .message.user { margin-left: auto; max-width: 82%; background: var(--user); color: var(--bg); }
+    .message header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; margin-bottom: 10px; }
+    .message header span { color: var(--muted); font-size: 13px; }
+    .message.user header span { color: color-mix(in srgb, var(--bg), transparent 30%); }
+    .content { white-space: pre-wrap; overflow-wrap: anywhere; }
+    figure { margin: 12px 0 0; }
+    img { max-width: 100%; border-radius: 12px; border: 1px solid var(--border); }
+    figcaption, .attachment { color: var(--muted); font-size: 13px; }
+    footer { margin-top: 34px; color: var(--muted); font-size: 13px; }
+    @media print { body { background: white; } main { max-width: none; padding: 0; } .message { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>New chat</h1>
+    <p class="export-meta">Exported from Mochi on 05/08/2026, 09:58:49</p>
+    <article class="message user">
+  <header>
+    <strong>User</strong>
+    <span>05/08/2026, 09:58:00</span>
+  </header>
+  
+  <div class="content">Hey, I just found a newborn kitten alone in a dumpster.I think it&#39;s a few days old.
+I stayed with it for a couple of hours to see if its mother&#39;s nearby but she never showed up.
+Since I have no experience taking care of orphaned, stray kittens ,I took it to two different vets, both told me it had less than a 15% chance of survival.
+Should i keep it?I&#39;m already exhausted.</div>
+  
+</article>
+<article class="message assistant">
+  <header>
+    <strong>Mochi</strong>
+    <span>OpenRouter Connected · openai/gpt-5.5 · 05/08/2026, 09:58:02</span>
+  </header>
+  
+  <div class="content">I’m really sorry — that’s a lot to be handed suddenly, especially with a newborn. And yes: a kitten that young is **extremely hard to keep alive without experience**, because they need care around the clock.
+
+**Should you keep it?**  
+If you’re already exhausted and don’t have neonatal kitten experience, the best choice is likely **not “keep it yourself,” but “get it to an experienced neonatal foster/rescue ASAP.”** That is not abandoning it — that’s giving it the best chance.
+
+### What to do right now
+
+1. **Keep it warm**
+   - Use a heating pad on low under half the box, or a warm water bottle wrapped in a towel.
+   - Make sure it can move away from the heat.
+   - **Do not feed it if it feels cold** — warm first.
+
+2. **Do not give cow’s milk**
+   - It needs kitten milk replacer, like **KMR**, not dairy milk.
+
+3. **Call urgently**
+   Ask specifically:  
+   &gt; “Do you have a neonatal kitten foster or bottle feeder available today?”
+
+   Try:
+   - Local cat rescues
+   - Animal shelters/humane society
+   - TNR/community cat groups
+   - Emergency vets
+   - Facebook/WhatsApp local pet rescue groups
+   - The vets you saw — ask if they know any bottle-feeders
+
+4. **If you must care for it temporarily**
+   A kitten a few days old usually needs:
+   - Feeding every **2–3 hours**, including overnight
+   - Kitten formula only
+   - Help peeing/pooping after every feed by gently rubbing the genital area with warm damp cotton/tissue
+   - Daily weighing
+   - Constant warmth
+
+### Please don’t feel guilty
+
+A newborn orphan is basically a tiny ICU patient. If you’re exhausted, inexperienced, and alone, it’s completely reasonable to transfer it to someone who does this regularly.
+
+&gt; The kindest thing may be: keep it warm and safe for now, then find a neonatal foster immediately.
+
+If you tell me your city/area, I can help you figure out exactly what to search or what to say when contacting rescues.</div>
+  
+</article>
+    <footer>Exported from Mochi. Open this file in a browser or print it to save as PDF.</footer>
+  </main>
+</body>
+</html>

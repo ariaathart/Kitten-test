@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New chat - Mochi Export</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f6f3ee; --panel: #fffaf3; --text: #211f1c; --muted: #6d665e; --border: #ded5c8; --user: #1f2a2d; --assistant: #ffffff; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #161513; --panel: #211f1c; --text: #f3eee6; --muted: #aaa095; --border: #3b352e; --user: #f3eee6; --assistant: #24221f; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 880px; margin: 0 auto; padding: 40px 18px 56px; }
+    h1 { margin: 0; font-size: clamp(28px, 5vw, 44px); line-height: 1.1; }
+    .export-meta { margin: 10px 0 34px; color: var(--muted); }
+    .message { margin: 18px 0; padding: 18px; border: 1px solid var(--border); border-radius: 16px; background: var(--assistant); }
+    .message.user { margin-left: auto; max-width: 82%; background: var(--user); color: var(--bg); }
+    .message header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; margin-bottom: 10px; }
+    .message header span { color: var(--muted); font-size: 13px; }
+    .message.user header span { color: color-mix(in srgb, var(--bg), transparent 30%); }
+    .content { white-space: pre-wrap; overflow-wrap: anywhere; }
+    figure { margin: 12px 0 0; }
+    img { max-width: 100%; border-radius: 12px; border: 1px solid var(--border); }
+    figcaption, .attachment { color: var(--muted); font-size: 13px; }
+    footer { margin-top: 34px; color: var(--muted); font-size: 13px; }
+    @media print { body { background: white; } main { max-width: none; padding: 0; } .message { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>New chat</h1>
+    <p class="export-meta">Exported from Mochi on 05/08/2026, 10:23:20</p>
+    <article class="message user">
+  <header>
+    <strong>User</strong>
+    <span>05/08/2026, 10:22:38</span>
+  </header>
+  
+  <div class="content">Hey, I just found a newborn kitten alone in a dumpster.I think it&#39;s a few days old.
+I stayed with it for a couple of hours to see if its mother&#39;s nearby but she never showed up.
+Since I have no experience taking care of orphaned, stray kittens ,I took it to two different vets, both told me it had less than a 15% chance of survival.
+Should i keep it?I&#39;m already exhausted.</div>
+  
+</article>
+<article class="message assistant">
+  <header>
+    <strong>Mochi</strong>
+    <span>OpenRouter Connected · openai/gpt-5.2 · 05/08/2026, 10:22:40</span>
+  </header>
+  
+  <div class="content">Keeping a **few-days-old orphan kitten** is basically doing neonatal ICU at home: **heat + feeding every 2–3 hours + help peeing/pooping**, day and night, for weeks. If you’re already exhausted, it’s completely reasonable to **not** take this on yourself. You’ve already done a lot by rescuing it and getting it seen.
+
+## What I’d do (best outcome with least burden on you)
+**Try to transfer the kitten to an experienced neonate foster/rescue ASAP.** Their survival odds are usually much better because they have supplies, schedules, and backup people.
+
+Contact, in this order:
+- **Local animal shelter / humane society** (ask specifically: “Do you have a neonatal kitten foster program?”)
+- **Cat rescues** in your area (call + message; many are faster on Facebook/Instagram)
+- **Emergency vet**: ask if they can connect you to a neonatal foster or rescue partner
+- If you’re in the U.S.: **Alley Cat Allies – Feral Friends Network** (free directory of local cat rescuers)
+
+If you tell me your **city/ZIP/country**, I can help you find nearby rescues/foster programs to call.
+
+## If you keep it even short-term (hours–1 day) until a handoff
+These are the “musts” that make the biggest difference:
+
+### 1) Warmth first (do this right now)
+A neonate can’t regulate temperature. **If it’s cold, do not feed yet** (they can’t digest and can aspirate).
+- Make a nest box with towels.
+- Heat source: heating pad on **LOW** under **half** the box (so it can crawl off heat) *or* a warm water bottle wrapped in cloth.
+- Aim for the nest to feel **warm, not hot**. (Overheating is also dangerous.)
+
+### 2) Feeding (only once warm)
+- Use **kitten milk replacer** (KMR or equivalent). **No cow’s milk.**
+- Feed **belly-down** (like they’re nursing), never on their back.
+- Every **2–3 hours** around the clock at this age (yes, overnight).
+- If the kitten is weak, coughing, milk bubbling from nose, or struggling: **stop and call an emergency vet** (aspiration pneumonia risk).
+
+### 3) Help it pee/poop
+After each feeding:
+- Gently rub genitals/anus with a **warm damp cotton ball/tissue** until it pees/poops.
+
+### 4) Simple monitoring
+- If possible, weigh daily with a kitchen gram scale. Healthy gain is roughly **10–15 g/day**.
+- Keep it clean and dry (chilling happens fast when wet).
+
+## When it’s not kind (or not realistic) to continue
+If **two vets** think survival is &lt;15%, they may be seeing things like severe dehydration, infection, prematurity, congenital issues, hypothermia, etc. In that situation:
+- Handing off to a neonate-experienced rescue is the best next step.
+- If the kitten is clearly declining and suffering and no rescue can take it, asking a vet about **humane euthanasia** can be a compassionate option. That’s not “giving up”—it’s preventing prolonged suffering when odds are extremely low.
+
+&gt; **Takeaway:** You don’t “owe” it raising it yourself. The kindest move may be getting it to a neonatal foster/rescue quickly—or making a humane decision with veterinary guidance.
+
+## Red flags = emergency now
+Go to an emergency vet immediately if you see:
+- Trouble breathing, gasping, blue/gray gums/tongue
+- Extreme lethargy, limp body, won’t latch at all
+- Continuous crying that doesn’t settle when warm
+- Vomiting, severe diarrhea, bloated hard belly
+- Cold body temperature that won’t warm up
+
+If you want, tell me:
+1) Are its **eyes still closed**?  
+2) Does it feel **warm or cool** to the touch right now?  
+3) What did the vets say is wrong (dehydration, infection, low temp, etc.)?  
+4) Your rough location (city/ZIP/country)  
+
+…and I’ll help you choose the most realistic next step and find rescue contacts nearby.</div>
+  
+</article>
+    <footer>Exported from Mochi. Open this file in a browser or print it to save as PDF.</footer>
+  </main>
+</body>
+</html>

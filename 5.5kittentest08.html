@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New chat - Mochi Export</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f6f3ee; --panel: #fffaf3; --text: #211f1c; --muted: #6d665e; --border: #ded5c8; --user: #1f2a2d; --assistant: #ffffff; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #161513; --panel: #211f1c; --text: #f3eee6; --muted: #aaa095; --border: #3b352e; --user: #f3eee6; --assistant: #24221f; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 880px; margin: 0 auto; padding: 40px 18px 56px; }
+    h1 { margin: 0; font-size: clamp(28px, 5vw, 44px); line-height: 1.1; }
+    .export-meta { margin: 10px 0 34px; color: var(--muted); }
+    .message { margin: 18px 0; padding: 18px; border: 1px solid var(--border); border-radius: 16px; background: var(--assistant); }
+    .message.user { margin-left: auto; max-width: 82%; background: var(--user); color: var(--bg); }
+    .message header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; margin-bottom: 10px; }
+    .message header span { color: var(--muted); font-size: 13px; }
+    .message.user header span { color: color-mix(in srgb, var(--bg), transparent 30%); }
+    .content { white-space: pre-wrap; overflow-wrap: anywhere; }
+    figure { margin: 12px 0 0; }
+    img { max-width: 100%; border-radius: 12px; border: 1px solid var(--border); }
+    figcaption, .attachment { color: var(--muted); font-size: 13px; }
+    footer { margin-top: 34px; color: var(--muted); font-size: 13px; }
+    @media print { body { background: white; } main { max-width: none; padding: 0; } .message { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>New chat</h1>
+    <p class="export-meta">Exported from Mochi on 05/08/2026, 10:05:40</p>
+    <article class="message user">
+  <header>
+    <strong>User</strong>
+    <span>05/08/2026, 10:04:48</span>
+  </header>
+  
+  <div class="content">Hey, I just found a newborn kitten alone in a dumpster.I think it&#39;s a few days old.
+I stayed with it for a couple of hours to see if its mother&#39;s nearby but she never showed up.
+Since I have no experience taking care of orphaned, stray kittens ,I took it to two different vets, both told me it had less than a 15% chance of survival.
+Should i keep it?I&#39;m already exhausted.</div>
+  
+</article>
+<article class="message assistant">
+  <header>
+    <strong>Mochi</strong>
+    <span>OpenRouter Connected · openai/gpt-5.5 · 05/08/2026, 10:04:50</span>
+  </header>
+  
+  <div class="content">I’m really sorry — that’s a lot to be thrown into, especially with a kitten that young.
+
+**You should only keep it if you can realistically do round-the-clock neonatal care or can get help.** A kitten that’s only a few days old usually needs feeding every **2–3 hours, including overnight**, warmth, and help peeing/pooping. If you’re already exhausted and alone, it’s completely okay — and often kinder — to hand it over to someone equipped for this.
+
+### Best next step
+Call/text **local cat rescues, shelters, TNR groups, kitten fosters, and emergency vets** and say:
+
+&gt; “I found a neonatal kitten, a few days old, orphaned, needs immediate bottle-feeding/foster. Two vets gave poor prognosis. Can anyone take or connect me with a neonatal foster?”
+
+Also ask the vets you visited if they know a **bottle-baby foster**. Rescues often have people who specifically handle newborns.
+
+### If you have it right now
+Until you can transfer it:
+
+- **Keep it warm first.** Do not feed if it feels cold. Use a heating pad on low under half the box, or warm water bottle wrapped in a towel.
+- Feed only **kitten milk replacer** if available — not cow’s milk.
+- Feed belly-down, never on its back.
+- After feeding, gently rub the genital area with a warm damp cotton pad/tissue to help it pee/poop.
+- If it becomes cold, limp, gasping, has milk from nose, blue/pale gums, or won’t swallow — that’s emergency-vet territory.
+
+### About the survival odds
+Less than 15% is heartbreaking, but it doesn’t mean you caused anything or that you’re wrong to try. Newborn strays can be incredibly fragile even with perfect care.
+
+If you can’t continue, **surrendering it to a rescue/foster/vet is not abandonment**. You already did the compassionate thing by getting it out of the dumpster and seeking care.</div>
+  
+</article>
+    <footer>Exported from Mochi. Open this file in a browser or print it to save as PDF.</footer>
+  </main>
+</body>
+</html>
