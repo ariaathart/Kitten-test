@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New chat - Mochi Export</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f6f3ee; --panel: #fffaf3; --text: #211f1c; --muted: #6d665e; --border: #ded5c8; --user: #1f2a2d; --assistant: #ffffff; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #161513; --panel: #211f1c; --text: #f3eee6; --muted: #aaa095; --border: #3b352e; --user: #f3eee6; --assistant: #24221f; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 880px; margin: 0 auto; padding: 40px 18px 56px; }
+    h1 { margin: 0; font-size: clamp(28px, 5vw, 44px); line-height: 1.1; }
+    .export-meta { margin: 10px 0 34px; color: var(--muted); }
+    .message { margin: 18px 0; padding: 18px; border: 1px solid var(--border); border-radius: 16px; background: var(--assistant); }
+    .message.user { margin-left: auto; max-width: 82%; background: var(--user); color: var(--bg); }
+    .message header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; margin-bottom: 10px; }
+    .message header span { color: var(--muted); font-size: 13px; }
+    .message.user header span { color: color-mix(in srgb, var(--bg), transparent 30%); }
+    .content { white-space: pre-wrap; overflow-wrap: anywhere; }
+    figure { margin: 12px 0 0; }
+    img { max-width: 100%; border-radius: 12px; border: 1px solid var(--border); }
+    figcaption, .attachment { color: var(--muted); font-size: 13px; }
+    footer { margin-top: 34px; color: var(--muted); font-size: 13px; }
+    @media print { body { background: white; } main { max-width: none; padding: 0; } .message { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>New chat</h1>
+    <p class="export-meta">Exported from Mochi on 05/08/2026, 11:21:24</p>
+    <article class="message user">
+  <header>
+    <strong>User</strong>
+    <span>05/08/2026, 11:19:54</span>
+  </header>
+  
+  <div class="content">Hey, I just found a newborn kitten alone in a dumpster.I think it&#39;s a few days old.
+I stayed with it for a couple of hours to see if its mother&#39;s nearby but she never showed up.
+Since I have no experience taking care of orphaned, stray kittens ,I took it to two different vets, both told me it had less than a 15% chance of survival.
+Should i keep it?I&#39;m already exhausted.</div>
+  
+</article>
+<article class="message assistant">
+  <header>
+    <strong>Mochi</strong>
+    <span>OpenRouter Connected · openai/gpt-5 · 05/08/2026, 11:19:56</span>
+  </header>
+  
+  <div class="content">I’m really sorry—you did a kind, hard thing, and it’s completely normal to feel exhausted and unsure.
+
+You don’t have to keep the kitten. Neonatal care is intense (every 2–3 hours around the clock), and it’s okay to hand this off to a rescue or shelter that has bottle-baby fosters.
+
+Options
+- If you can’t continue: Contact local shelters/rescues and ask specifically for “neonatal/bottle-baby” help. Many groups have emergency foster networks.
+- If you can keep it short-term (12–48 hours) until help arrives: Follow the quick care steps below.
+
+Finding help fast
+- Search terms: “neonatal kitten rescue near me,” “bottle baby foster,” “TNR group [your city],” “humane society [your city].”
+- Call/text/email multiple places at once (municipal shelter, SPCA/humane society, cat rescues, TNR groups, vet clinics—ask for foster contacts).
+- What to say/send:
+  “Found 1 newborn kitten (eyes closed/cord?)—needs bottle-baby foster ASAP. I can transport. Vets assessed low survival but I’m trying to give it a chance. Can you connect me with a neonatal foster or intake today?”
+- If you share your city/region, I can help you find specific contacts.
+
+If you’re keeping it briefly: immediate care
+1) Warmth first (do not feed a cold kitten)
+- Set up a small box/carrier “nest.” Heating pad on LOW under half the box or a warm rice sock/hot water bottle wrapped in a towel. It should feel toasty, not hot.
+- Aim for steady warmth and quiet. If the kitten feels cool or is lethargic, warm for 20–30 minutes before offering anything by mouth.
+
+2) Hydration/energy stopgap
+- Once warm and responsive, you can offer a tiny amount of warmed, unflavored Pedialyte (or water with a pinch of sugar) by dropper at the lips—just a drop at a time, no force.
+- Then transition to kitten milk replacer (KMR). Avoid cow’s milk.
+
+3) Feeding basics
+- Use kitten bottle or syringe with a small nipple; kitten on belly (never on back). Let it suckle—don’t force.
+- Frequency: every 2–3 hours, including overnight. Small amounts often. Warm formula to body temp.
+- Burp gently after.
+- After each feed, stimulate to pee/poop with a warm, damp cotton ball or tissue.
+
+4) Cleanliness and fleas
+- Heavy fleas can be dangerous. If there are fleas, pick off by hand/flea comb. No topical flea meds. A quick warm, soapy wipe/bath only if the kitten is warm and stable—dry thoroughly and keep warm.
+
+5) Monitor
+- Continuous crying, refusal to eat when warm, pale/white gums, gasping, bloating, diarrhea, or becoming cold/lethargic = urgent vet/rescue help.
+- Weighing daily (kitchen scale) helps, but don’t stress if you can’t yet—focus on warmth and gentle feeds.
+
+About the survival chances
+- Vets may be right that it’s fragile, but kittens do sometimes pull through with fast, appropriate care. It’s also okay to decide you can’t take this on—getting the kitten to a qualified foster is still a real kindness.
+
+If you’d like, tell me your location and what supplies you have right now (heating pad, bottle/syringe, KMR, Pedialyte), and I’ll tailor next steps and help you find the fastest rescue options. Whatever you choose, you’ve already helped this little one more than most would.</div>
+  
+</article>
+    <footer>Exported from Mochi. Open this file in a browser or print it to save as PDF.</footer>
+  </main>
+</body>
+</html>

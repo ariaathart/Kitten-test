@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New chat - Mochi Export</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f6f3ee; --panel: #fffaf3; --text: #211f1c; --muted: #6d665e; --border: #ded5c8; --user: #1f2a2d; --assistant: #ffffff; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #161513; --panel: #211f1c; --text: #f3eee6; --muted: #aaa095; --border: #3b352e; --user: #f3eee6; --assistant: #24221f; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 880px; margin: 0 auto; padding: 40px 18px 56px; }
+    h1 { margin: 0; font-size: clamp(28px, 5vw, 44px); line-height: 1.1; }
+    .export-meta { margin: 10px 0 34px; color: var(--muted); }
+    .message { margin: 18px 0; padding: 18px; border: 1px solid var(--border); border-radius: 16px; background: var(--assistant); }
+    .message.user { margin-left: auto; max-width: 82%; background: var(--user); color: var(--bg); }
+    .message header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; margin-bottom: 10px; }
+    .message header span { color: var(--muted); font-size: 13px; }
+    .message.user header span { color: color-mix(in srgb, var(--bg), transparent 30%); }
+    .content { white-space: pre-wrap; overflow-wrap: anywhere; }
+    figure { margin: 12px 0 0; }
+    img { max-width: 100%; border-radius: 12px; border: 1px solid var(--border); }
+    figcaption, .attachment { color: var(--muted); font-size: 13px; }
+    footer { margin-top: 34px; color: var(--muted); font-size: 13px; }
+    @media print { body { background: white; } main { max-width: none; padding: 0; } .message { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>New chat</h1>
+    <p class="export-meta">Exported from Mochi on 05/08/2026, 11:07:28</p>
+    <article class="message user">
+  <header>
+    <strong>User</strong>
+    <span>05/08/2026, 11:06:09</span>
+  </header>
+  
+  <div class="content">Hey, I just found a newborn kitten alone in a dumpster.I think it&#39;s a few days old.
+I stayed with it for a couple of hours to see if its mother&#39;s nearby but she never showed up.
+Since I have no experience taking care of orphaned, stray kittens ,I took it to two different vets, both told me it had less than a 15% chance of survival.
+Should i keep it?I&#39;m already exhausted.</div>
+  
+</article>
+<article class="message assistant">
+  <header>
+    <strong>Mochi</strong>
+    <span>OpenRouter Connected · openai/gpt-5 · 05/08/2026, 11:06:10</span>
+  </header>
+  
+  <div class="content">I’m really sorry—you’ve done a brave, kind thing, and it’s exhausting. Neonatal kittens are incredibly fragile; even in expert hands, many don’t make it. Whatever you decide, you’re not failing.
+
+Should you keep it?
+- It’s okay not to. The kindest choice may be to get the kitten to an experienced neonatal foster or rescue ASAP. They have the gear, schedule, and know‑how to give it the best chance.
+- If you can’t do round‑the‑clock care right now, prioritizing a handoff today is the most humane option.
+
+How to find immediate help fast
+- Call local shelters/animal control/SPCA/humane society and ask for “neonatal/bottle-baby foster” contacts.
+- Ask the vets you saw if they know any kitten fosters or rescues that take neonates.
+- Search terms: “neonatal kitten rescue near me,” “bottle baby foster,” “[your city] cat rescue,” “TNR group.” Post urgently in local Facebook rescue groups and Nextdoor.
+- If you share your city/ZIP, I can help you brainstorm specific leads.
+
+If you’re keeping it for even 12–24 hours (triage basics)
+- Warmth first: If the kitten feels cool, don’t feed yet. Warm gently (heating pad on LOW under half the box, towel between; or a hot water bottle well-wrapped). Aim warm, not hot. Recheck often.
+- Tiny bit of sugar: If weak/lethargic, rub a drop of corn syrup/honey on gums while warming.
+- Formula only: Use kitten milk replacer (KMR/KittenAid), warmed to body temp. No cow’s milk. Pet stores/pharmacies often have it. Use a kitten bottle; feed belly‑down, never on the back. Let it suck—don’t force the bottle.
+- Frequency: About every 2–3 hours around the clock. Stop if milk comes from the nose/mouth (aspiration risk).
+- After each feed: Gently stimulate to pee/poop with a warm, damp cotton ball/tissue on the genital/anal area.
+- Keep notes: Ideally weigh daily with a kitchen scale; healthy gain is roughly 10–15 g/day, but don’t stress if you can’t do this tonight.
+- Red flags for urgent vet care: Too weak to swallow, gasping, persistent milk from nose, cold and not warming up, severe dehydration (tacky gums/skin tents).
+
+A quick decision snapshot
+- If you can’t manage feeds every 2–3 hours tonight: seek a rescue/foster handoff now.
+- If you can manage tonight but not long‑term: stabilize with warmth/feeds and line up a handoff tomorrow.
+- If the kitten is crashing despite warming and sugar: call an emergency vet about humane options—you’ve already given it a chance it wouldn’t have had.
+
+If you want, tell me:
+- Your city/ZIP
+- Whether its eyes are open/closed and if it still</div>
+  
+</article>
+    <footer>Exported from Mochi. Open this file in a browser or print it to save as PDF.</footer>
+  </main>
+</body>
+</html>
