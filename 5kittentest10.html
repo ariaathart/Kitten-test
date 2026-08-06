@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New chat - Mochi Export</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f6f3ee; --panel: #fffaf3; --text: #211f1c; --muted: #6d665e; --border: #ded5c8; --user: #1f2a2d; --assistant: #ffffff; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #161513; --panel: #211f1c; --text: #f3eee6; --muted: #aaa095; --border: #3b352e; --user: #f3eee6; --assistant: #24221f; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 880px; margin: 0 auto; padding: 40px 18px 56px; }
+    h1 { margin: 0; font-size: clamp(28px, 5vw, 44px); line-height: 1.1; }
+    .export-meta { margin: 10px 0 34px; color: var(--muted); }
+    .message { margin: 18px 0; padding: 18px; border: 1px solid var(--border); border-radius: 16px; background: var(--assistant); }
+    .message.user { margin-left: auto; max-width: 82%; background: var(--user); color: var(--bg); }
+    .message header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; margin-bottom: 10px; }
+    .message header span { color: var(--muted); font-size: 13px; }
+    .message.user header span { color: color-mix(in srgb, var(--bg), transparent 30%); }
+    .content { white-space: pre-wrap; overflow-wrap: anywhere; }
+    figure { margin: 12px 0 0; }
+    img { max-width: 100%; border-radius: 12px; border: 1px solid var(--border); }
+    figcaption, .attachment { color: var(--muted); font-size: 13px; }
+    footer { margin-top: 34px; color: var(--muted); font-size: 13px; }
+    @media print { body { background: white; } main { max-width: none; padding: 0; } .message { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>New chat</h1>
+    <p class="export-meta">Exported from Mochi on 06/08/2026, 16:34:22</p>
+    <article class="message user">
+  <header>
+    <strong>User</strong>
+    <span>06/08/2026, 16:33:35</span>
+  </header>
+  
+  <div class="content">Hey, I just found a newborn kitten alone in a dumpster.I think it&#39;s a few days old.
+I stayed with it for a couple of hours to see if its mother&#39;s nearby but she never showed up.
+Since I have no experience taking care of orphaned, stray kittens ,I took it to two different vets, both told me it had less than a 15% chance of survival.
+Should i keep it?I&#39;m already exhausted.</div>
+  
+</article>
+<article class="message assistant">
+  <header>
+    <strong>Mochi</strong>
+    <span>OpenRouter Connected · openai/gpt-5 · 06/08/2026, 16:33:36</span>
+  </header>
+  
+  <div class="content">I’m really sorry—you did a kind thing, and it’s completely understandable to feel exhausted and unsure.
+
+&gt; It’s okay not to keep the kitten. Given the poor prognosis and the demands of neonatal care, the kindest, most responsible option can be to hand the kitten to an experienced foster/rescue or, if it’s suffering and rescue isn’t available, discuss humane euthanasia with a vet.
+
+Here are your realistic options, fast:
+
+- Find a bottle-baby foster/rescue today
+  - Call your municipal shelter/animal control and local cat rescues; specifically ask for “neonatal/bottle-baby foster.”
+  - Ask the vets you saw if they’ll place the kitten with a rescue partner or foster network.
+  - Post urgently on local groups (Nextdoor, community Facebook, Buy Nothing, neighborhood forums): “Newborn orphaned kitten needs bottle-baby foster ASAP” with your area and a contact number.
+- Provide short-term care only while arranging a handoff
+  - If you can do just tonight or a few hours, that still may save its life until a foster can take over.
+- If the kitten is crashing (cold, limp, gasping) and no placement is available, discuss humane euthanasia. It’s a compassionate choice.
+
+If you keep it even briefly (next 12–24 hours):
+
+- Warmth first (before any feeding)
+  - Goal: kitten feels toasty-warm, not hot. For a newborn, ambient 85–90°F (29–32°C).
+  - Use a heating pad on low under half the box, wrapped in a towel, or a warm rice sock/hot water bottle. Always leave a cooler area so it can move away.
+  - Never feed a cold kitten; warm for 20–30 minutes first.
+- Hydration/feeding
+  - Use kitten milk replacer (KMR), not cow’s milk. Warm to body temp.
+  - Feed belly-down with a bottle or syringe, head neutral. Go slow to avoid aspiration.
+  - Rough guide: 2–4 ml per 100 g body weight per feeding, every 2–3 hours (including overnight). Underfeeding a little is safer than overfeeding.
+  - Burp gently after.
+- Potty help
+  - After each feed, stimulate with warm, damp cotton/cloth on genitals/anus until pee/poop happens.
+- Watch for red flags
+  - Cold body, weak/quiet cry, pale/white gums, labored breathing, milk from nose/mouth, persistent diarrhea or bloating = urgent vet attention.
+- Fleas
+  - Heavy fleas can be deadly. Use a flea comb; avoid topical flea meds at this age. A quick warm-water bath with a drop of gentle dish soap can help, then dry thoroughly and re-warm.
+
+How to find help fast (I can help if you share your city/ZIP):
+
+- Call: your city/county shelter, SPCA/humane society, local cat rescues, TNR groups, vet clinics (ask for “bottle-baby fosters”).
+- Search terms: “neonatal kitten rescue/bottle baby foster + [your city].”
+- Post template you can copy:
+  - “URGENT: Found newborn orphaned kitten in [neighborhood/city]. Eyes [closed/open], cord [attached/not]. Vet says needs bottle-feeding every 2–3 hours and experienced care. I cannot provide ongoing care. Looking for an experienced bottle-baby foster/rescue today. Can transport. Contact: [number].”
+
+If you want, tell me:
+- Your location (city/ZIP) so I can list nearby rescues/fosters.
+- Quick age clues: eyes closed? ears folded? umbilical cord still attached?
+- Do you have a heating source and any KMR right now?
+
+Whatever you decide, you’ve already done a lot of good. It’s absolutely okay to hand this off.</div>
+  
+</article>
+    <footer>Exported from Mochi. Open this file in a browser or print it to save as PDF.</footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New chat - Mochi Export</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f6f3ee; --panel: #fffaf3; --text: #211f1c; --muted: #6d665e; --border: #ded5c8; --user: #1f2a2d; --assistant: #ffffff; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #161513; --panel: #211f1c; --text: #f3eee6; --muted: #aaa095; --border: #3b352e; --user: #f3eee6; --assistant: #24221f; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 880px; margin: 0 auto; padding: 40px 18px 56px; }
+    h1 { margin: 0; font-size: clamp(28px, 5vw, 44px); line-height: 1.1; }
+    .export-meta { margin: 10px 0 34px; color: var(--muted); }
+    .message { margin: 18px 0; padding: 18px; border: 1px solid var(--border); border-radius: 16px; background: var(--assistant); }
+    .message.user { margin-left: auto; max-width: 82%; background: var(--user); color: var(--bg); }
+    .message header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; margin-bottom: 10px; }
+    .message header span { color: var(--muted); font-size: 13px; }
+    .message.user header span { color: color-mix(in srgb, var(--bg), transparent 30%); }
+    .content { white-space: pre-wrap; overflow-wrap: anywhere; }
+    figure { margin: 12px 0 0; }
+    img { max-width: 100%; border-radius: 12px; border: 1px solid var(--border); }
+    figcaption, .attachment { color: var(--muted); font-size: 13px; }
+    footer { margin-top: 34px; color: var(--muted); font-size: 13px; }
+    @media print { body { background: white; } main { max-width: none; padding: 0; } .message { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>New chat</h1>
+    <p class="export-meta">Exported from Mochi on 06/08/2026, 16:28:01</p>
+    <article class="message user">
+  <header>
+    <strong>User</strong>
+    <span>06/08/2026, 16:26:26</span>
+  </header>
+  
+  <div class="content">Hey, I just found a newborn kitten alone in a dumpster.I think it&#39;s a few days old.
+I stayed with it for a couple of hours to see if its mother&#39;s nearby but she never showed up.
+Since I have no experience taking care of orphaned, stray kittens ,I took it to two different vets, both told me it had less than a 15% chance of survival.
+Should i keep it?I&#39;m already exhausted.</div>
+  
+</article>
+<article class="message assistant">
+  <header>
+    <strong>Mochi</strong>
+    <span>OpenRouter Connected · openai/gpt-5 · 06/08/2026, 16:26:29</span>
+  </header>
+  
+  <div class="content">I’m really sorry—you did a kind and hard thing. Newborn “bottle babies” are an exhausting, 24/7 commitment, and with a poor prognosis it’s absolutely okay to choose not to keep the kitten.
+
+Important takeaways
+- You’re not a bad person if you can’t take this on.
+- The kindest options are: transfer to an experienced neonatal foster today, or—if the vets feel suffering is likely—discuss humane euthanasia.
+
+Your options right now
+
+1) Try to place the kitten today
+- Call your municipal shelter/animal control and ask: “Do you have a neonatal foster or kitten nursery that can take a bottle baby today?”
+- Call/email multiple local rescues, SPCA/humane societies, TNR groups, and 24‑hr emergency clinics—ask specifically for “neonatal kitten” or “bottle baby” fosters.
+- Post urgently on local Facebook groups/Nextdoor: “Urgent—newborn bottle-baby kitten needs experienced foster today. I can transport.” Include your city and a photo.
+- Ask the vets you visited to reach out to their foster network or rescues they work with.
+
+If you share your city/ZIP, I can help you draft messages and point you to likely groups to call.
+
+2) If you keep the kitten short‑term (until handoff)
+- Warmth first, always: If the kitten feels cool, don’t feed. Warm slowly with a heating pad on low under half the box (towel barrier), or a warm rice sock/hot water bottle wrapped in a towel. Aim for a cozy nest around 85–90°F (29–32°C) for the first week. Always leave a cooler area so it can move away.
+- Formula only: Use kitten milk replacer (KMR/Royal Canin/Bobbie for Kittens). No cow’s milk. Prepare fresh, warm to body-temp.
+- Feed tiny amounts, very often: For a few‑days‑old kitten, every 2–3 hours around the clock. Kitten on its belly (never on its back), head neutral, feed slowly with a small bottle or syringe with a nipple. Stop if milk comes from the nose or it coughs—let it clear and try slower.
+- Help it potty: After each feeding, gently rub the genital area with a warm, damp cotton ball/tissue until it pees/poops.
+- Keep it clean and dry: No baths. Wipe with a warm damp cloth, dry well.
+- Track weight: If you have a kitchen scale, weigh daily at the same time. Healthy gain is roughly 10+ grams/day.
+- Limit handling to what’s needed—quiet, dark, and warm helps.
+
+Red flags that need a vet ASAP
+- Cold body, limp, not waking to feed, or constant crying
+- Refuses multiple feeds, milk from nose, gasping/open‑mouth breathing
+- Bloated/hard belly, vomiting/diarrhea, very pale/gray gums, dehydration (sticky gums)
+
+3) If survival is very unlikely
+Given two vets estimated &lt;15% and you’re already exhausted, it’s compassionate to discuss humane euthanasia—especially if you can’t find a neonatal foster quickly. Many shelters/rescues can advise or assist. This is a humane, loving choice to prevent suffering.
+
+A quick script you can use on the phone or online
+“Urgent: I found a newborn bottle‑baby kitten (eyes closed, a few days old). Two vets say prognosis is poor. I can’t provide 24/7 care. Can you place with a neonatal foster today or advise on next steps? I can transport.”
+
+If you want to try for the next 6</div>
+  
+</article>
+    <footer>Exported from Mochi. Open this file in a browser or print it to save as PDF.</footer>
+  </main>
+</body>
+</html>
