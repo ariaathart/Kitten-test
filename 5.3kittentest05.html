@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New chat - Mochi Export</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f6f3ee; --panel: #fffaf3; --text: #211f1c; --muted: #6d665e; --border: #ded5c8; --user: #1f2a2d; --assistant: #ffffff; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #161513; --panel: #211f1c; --text: #f3eee6; --muted: #aaa095; --border: #3b352e; --user: #f3eee6; --assistant: #24221f; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 880px; margin: 0 auto; padding: 40px 18px 56px; }
+    h1 { margin: 0; font-size: clamp(28px, 5vw, 44px); line-height: 1.1; }
+    .export-meta { margin: 10px 0 34px; color: var(--muted); }
+    .message { margin: 18px 0; padding: 18px; border: 1px solid var(--border); border-radius: 16px; background: var(--assistant); }
+    .message.user { margin-left: auto; max-width: 82%; background: var(--user); color: var(--bg); }
+    .message header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; margin-bottom: 10px; }
+    .message header span { color: var(--muted); font-size: 13px; }
+    .message.user header span { color: color-mix(in srgb, var(--bg), transparent 30%); }
+    .content { white-space: pre-wrap; overflow-wrap: anywhere; }
+    figure { margin: 12px 0 0; }
+    img { max-width: 100%; border-radius: 12px; border: 1px solid var(--border); }
+    figcaption, .attachment { color: var(--muted); font-size: 13px; }
+    footer { margin-top: 34px; color: var(--muted); font-size: 13px; }
+    @media print { body { background: white; } main { max-width: none; padding: 0; } .message { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>New chat</h1>
+    <p class="export-meta">Exported from Mochi on 05/08/2026, 12:11:53</p>
+    <article class="message user">
+  <header>
+    <strong>User</strong>
+    <span>05/08/2026, 12:11:00</span>
+  </header>
+  
+  <div class="content">Hey, I just found a newborn kitten alone in a dumpster.I think it&#39;s a few days old.
+I stayed with it for a couple of hours to see if its mother&#39;s nearby but she never showed up.
+Since I have no experience taking care of orphaned, stray kittens ,I took it to two different vets, both told me it had less than a 15% chance of survival.
+Should i keep it?I&#39;m already exhausted.</div>
+  
+</article>
+<article class="message assistant">
+  <header>
+    <strong>Mochi</strong>
+    <span>OpenRouter Connected · openai/gpt-5.3-chat · 05/08/2026, 12:11:01</span>
+  </header>
+  
+  <div class="content">That’s a really tough spot to be in. You did exactly what a responsible person should do—checking for the mother, getting vet opinions, not just walking away.
+
+Short answer: you *can* keep it, but only if you’re realistically able to take on very intensive care for the next couple of weeks. A newborn kitten isn’t just “a small cat”—it’s closer to caring for a fragile infant with medical risk.
+
+Here’s what that actually means so you can decide clearly:
+
+**What keeping it involves (right now):**
+- Feeding every 2–3 hours, day and night (kitten formula, not cow’s milk)
+- Stimulating it to pee/poop after every feeding
+- Keeping it constantly warm (they can’t regulate body temp yet)
+- Watching for fading (lethargy, cold body, not eating—can decline fast)
+
+**What the vets are telling you matters**
+A &lt;15% survival chance isn’t them being dramatic—it means even with perfect care, it may not make it. So this isn’t just about effort; it’s also about emotional bandwidth.
+
+**So the real question is: do you have the energy for this tonight and the next 1–2 weeks?**
+You already said you’re exhausted, and that matters. Sleep deprivation alone makes this really hard.
+
+**Other options (very valid ones):**
+- Emergency vet or shelter intake (some have neonatal/“bottle baby” programs)
+- Local animal rescues or foster networks (often better equipped than general vets)
+- Even posting locally (“found neonatal kitten, needs experienced foster ASAP”) can work fast
+
+If you *want* to keep it but just can’t do it alone, you might be able to find a rescue that will support you with supplies and guidance.
+
+&gt; If you feel overwhelmed, that’s not you failing the kitten—that’s you recognizing the level of care it needs.
+
+If you decide to keep it, I can walk you through exactly what to do step-by-step for the next few hours to give it the best chance.
+
+If you decide to hand it off, that’s also a compassionate choice.
+
+What are you leaning toward right now?</div>
+  
+</article>
+    <footer>Exported from Mochi. Open this file in a browser or print it to save as PDF.</footer>
+  </main>
+</body>
+</html>

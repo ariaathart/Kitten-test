@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New chat - Mochi Export</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f6f3ee; --panel: #fffaf3; --text: #211f1c; --muted: #6d665e; --border: #ded5c8; --user: #1f2a2d; --assistant: #ffffff; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #161513; --panel: #211f1c; --text: #f3eee6; --muted: #aaa095; --border: #3b352e; --user: #f3eee6; --assistant: #24221f; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 880px; margin: 0 auto; padding: 40px 18px 56px; }
+    h1 { margin: 0; font-size: clamp(28px, 5vw, 44px); line-height: 1.1; }
+    .export-meta { margin: 10px 0 34px; color: var(--muted); }
+    .message { margin: 18px 0; padding: 18px; border: 1px solid var(--border); border-radius: 16px; background: var(--assistant); }
+    .message.user { margin-left: auto; max-width: 82%; background: var(--user); color: var(--bg); }
+    .message header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; margin-bottom: 10px; }
+    .message header span { color: var(--muted); font-size: 13px; }
+    .message.user header span { color: color-mix(in srgb, var(--bg), transparent 30%); }
+    .content { white-space: pre-wrap; overflow-wrap: anywhere; }
+    figure { margin: 12px 0 0; }
+    img { max-width: 100%; border-radius: 12px; border: 1px solid var(--border); }
+    figcaption, .attachment { color: var(--muted); font-size: 13px; }
+    footer { margin-top: 34px; color: var(--muted); font-size: 13px; }
+    @media print { body { background: white; } main { max-width: none; padding: 0; } .message { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>New chat</h1>
+    <p class="export-meta">Exported from Mochi on 05/08/2026, 11:55:26</p>
+    <article class="message user">
+  <header>
+    <strong>User</strong>
+    <span>05/08/2026, 11:53:46</span>
+  </header>
+  
+  <div class="content">Hey, I just found a newborn kitten alone in a dumpster.I think it&#39;s a few days old.
+I stayed with it for a couple of hours to see if its mother&#39;s nearby but she never showed up.
+Since I have no experience taking care of orphaned, stray kittens ,I took it to two different vets, both told me it had less than a 15% chance of survival.
+Should i keep it?I&#39;m already exhausted.</div>
+  
+</article>
+<article class="message assistant">
+  <header>
+    <strong>Mochi</strong>
+    <span>OpenRouter Connected · openai/gpt-5.1 · 05/08/2026, 11:53:47</span>
+  </header>
+  
+  <div class="content">You’re in a really tough spot, and feeling exhausted and conflicted is completely understandable. You stepped in when most people would have walked away; that already says a lot about you.
+
+Let’s break this down into the key questions:
+
+---
+
+## 1. Do you *have* to keep the kitten?
+
+No. You are not obligated to keep the kitten yourself for it to get a chance.
+
+Your options are:
+
+- **Rescue / foster network**  
+  - Look for local rescues, cat shelters, or “neonatal kitten” foster groups.  
+  - Search: “neonatal kitten rescue [your city]” or “[your city] TNR group kitten foster.”  
+  - Call or email multiple groups – be very clear:  
+    &gt; “I have a 0–1 week-old orphaned kitten, vets say survival odds are low. I’m exhausted and not experienced. Do you have a neonatal foster or can you take over care or advise me?”
+
+- **Individual experienced fosters**  
+  - Local Facebook groups, Nextdoor, community WhatsApp/Telegram, Reddit subs like r/cats or r/Assistance, often have people experienced with bottle babies.  
+  - Post a quick message + location area + a photo:  
+    - Age estimate (“eyes closed?” “umbilical cord still on?”)  
+    - That vets say it’s critical  
+    - That you *cannot* be primary caregiver but are trying to find someone who can
+
+- **Talk to the vets again**  
+  - Ask if they know any fosters, techs, or nurses who bottle-feed kittens. Vet staff often do this privately.
+
+You are allowed to say: “I cannot meet the care needs; I need to find someone who can.” That’s not cruelty; it’s honesty.
+
+---
+
+## 2. What keeping the kitten realistically means
+
+Newborns (0–2 weeks) are *high-intensity*:
+
+- **Feeding**: Every 2–3 hours (sometimes every 1.5–2 hours at first), including overnight  
+- **Stimulating to pee/poop** after every feeding  
+- **Keeping warm**: They cannot regulate their temperature  
+- **Monitoring**: Weight daily, watching for diarrhea, dehydration, fading
+
+On top of that, vets already warned the kitten has a low survival chance.
+
+So ask yourself honestly:
+
+- Can you function on interrupted sleep for at least 1–2 weeks?  
+- Do you have anyone to share shifts with?  
+- Is your mental/physical health stable enough to handle very possible heartbreak?
+
+If your honest answer is “no,” then **it is okay not to keep it.** Trying and collapsing isn’t better for you or the kitten.
+
+---
+
+## 3. If you *do* decide to try for now
+
+If you’re leaning toward keeping it at least temporarily while you look for help, focus on **today and tonight**, not “for weeks.”
+
+Key points (short, so you’re not overwhelmed):
+
+**A. Warmth first, always**
+
+- Kittens must be warm *before* feeding or they can’t digest and may aspirate.  
+- Use:
+  - A heating pad on *low* under half the box/carrier, wrapped in a towel, so it can move away from heat.  
+  - Or a hot water bottle in a sock/towel, refreshed regularly.  
+- Target: kitten feels warm in your hands, not hot.
+
+**B. Correct feeding**
+
+- Use kitten formula (KMR or similar), *never* cow’s milk.  
+- Use a kitten bottle or a 1–3 mL syringe if that’s what the vet gave you.  
+- Feed with the kitten on its belly (like nursing from mom), *not* on its back.  
+- Go slow: drops, not a gush, to avoid choking.  
+- Frequency: usually every 2–3 hours, including overnight, unless a vet gave you different instructions.
+
+**C. Help it pee/poop**
+
+- After each feeding:
+  - Use a warm, damp cotton ball or soft tissue.  
+  - Gently rub the genital/anus area in small circles until it pees (and maybe poops).
+
+**D. Watch for danger signs**
+
+Get to a vet or emergency clinic if you see:
+
+- Very cold or very limp kitten  
+- Refuses to suck at multiple feedings  
+- Pale or gray gums/tongue  
+- Labored breathing, gasping, or milk from nose
+
+But remember: even with perfect care, some newborns just don’t make it. That’s not your failure.
+
+---
+
+## 4. Emotional side: your exhaustion and guilt
+
+You’re already worn down after just a few hours and vet visits. That’s a sign this is taking a real toll.
+
+A few important truths:
+
+- **You already helped.**  
+  You took time, you watched for mom, you went to *two* vets. That is a lot of care already.
+
+- **Saying “I can’t do this” is not cruelty.**  
+  It’s recognizing your limits. Neonatal care is something even seasoned rescuers sometimes say no to because it’s so draining and often ends in loss.
+
+- **Guilt ≠ responsibility.**  
+  You didn’t put the kitten in the dumpster. You stepped in to try to give it a chance. Whatever happens next, you’ve already done more than many people would.
+
+If the stress is already feeling like too much, listen to that. Burnout and breakdown help no one.
+
+---
+
+## 5. How to decide *today*
+
+Maybe do this:
+
+1. **Give yourself a time frame:**  
+   “I will care for it for the next 12–24 hours *while actively looking for a rescue/foster*.”  
+2. **During that time, contact rescues/fosters** as much as you can.  
+3. **Reassess after that period**:  
+   - If you’ve found a foster/rescue: transfer care.  
+   - If you haven’t, ask:  
+     - Am I still able to keep doing this?  
+     - Is my health/work/sanity at risk?  
+   - If the answer is no, talk to a vet or shelter honestly about humane options.
+
+---
+
+If you tell me:
+
+- Whether its eyes are open or closed  
+- If it still has an umbilical cord stump  
+- Roughly where you are (country/city, no need for exact location)
+
+I can help you estimate age and suggest the *very next* concrete steps and phrases you can use when calling/emailing rescues.</div>
+  
+</article>
+    <footer>Exported from Mochi. Open this file in a browser or print it to save as PDF.</footer>
+  </main>
+</body>
+</html>

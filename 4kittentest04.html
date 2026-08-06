@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New chat - Mochi Export</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f6f3ee; --panel: #fffaf3; --text: #211f1c; --muted: #6d665e; --border: #ded5c8; --user: #1f2a2d; --assistant: #ffffff; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #161513; --panel: #211f1c; --text: #f3eee6; --muted: #aaa095; --border: #3b352e; --user: #f3eee6; --assistant: #24221f; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 880px; margin: 0 auto; padding: 40px 18px 56px; }
+    h1 { margin: 0; font-size: clamp(28px, 5vw, 44px); line-height: 1.1; }
+    .export-meta { margin: 10px 0 34px; color: var(--muted); }
+    .message { margin: 18px 0; padding: 18px; border: 1px solid var(--border); border-radius: 16px; background: var(--assistant); }
+    .message.user { margin-left: auto; max-width: 82%; background: var(--user); color: var(--bg); }
+    .message header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; margin-bottom: 10px; }
+    .message header span { color: var(--muted); font-size: 13px; }
+    .message.user header span { color: color-mix(in srgb, var(--bg), transparent 30%); }
+    .content { white-space: pre-wrap; overflow-wrap: anywhere; }
+    figure { margin: 12px 0 0; }
+    img { max-width: 100%; border-radius: 12px; border: 1px solid var(--border); }
+    figcaption, .attachment { color: var(--muted); font-size: 13px; }
+    footer { margin-top: 34px; color: var(--muted); font-size: 13px; }
+    @media print { body { background: white; } main { max-width: none; padding: 0; } .message { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>New chat</h1>
+    <p class="export-meta">Exported from Mochi on 05/08/2026, 13:53:03</p>
+    <article class="message user">
+  <header>
+    <strong>User</strong>
+    <span>05/08/2026, 13:52:31</span>
+  </header>
+  
+  <div class="content">Hey, I just found a newborn kitten alone in a dumpster.I think it&#39;s a few days old.
+I stayed with it for a couple of hours to see if its mother&#39;s nearby but she never showed up.
+Since I have no experience taking care of orphaned, stray kittens ,I took it to two different vets, both told me it had less than a 15% chance of survival.
+Should i keep it?I&#39;m already exhausted.</div>
+  
+</article>
+<article class="message assistant">
+  <header>
+    <strong>Mochi</strong>
+    <span>OpenRouter Connected · openai/gpt-4 · 05/08/2026, 13:52:33</span>
+  </header>
+  
+  <div class="content">Hey, first of all, I want to say it’s amazing that you took the time to try to help this little kitten. Not everyone would have done what you just did, and that shows a lot of kindness and compassion.
+
+Newborn kittens are very fragile, and caring for an orphaned one is exhausting because of how much effort it takes—round-the-clock feeding every few hours, keeping it warm, helping it go to the bathroom, etc. The vets weren’t exaggerating about the low survival odds; it’s sadly common for neonates separated from their mother.
+
+That said, whether you keep the kitten or hand it off is a decision only you can make. Here are your options:
+
+### If You Want to Keep Trying:
+- **Are you ready for the commitment?** It’s a lot—especially the first few weeks—but if you think you’re up for it, you’ll need surefire essentials:
+  - **Kitten Milk Replacement (KMR)**: Never cow’s milk or homemade formulas.
+  - **Syringe or bottle for feeding**: You’ll need to feed it every 2-3 hours, even overnight.
+  - **Heat source**: At this age, warmth is essential. A heating pad on low, or a warm rice sock, under a blanket (but not too hot!).
+  - **Learn quickly**: You’ll need to stimulate them to pee/poop with a warm, wet cloth, mimic a mother cat’s grooming, and watch them closely for signs of illness.
+  
+- **Reach out for help**: Local cat rescue groups or shelters might have volunteers with experience raising “bottle babies” who can take over.
+
+---
+
+### If You Can’t Take This On:
+- That’s okay too. No one’s prepared for this unless they’ve done it before. You can’t pour from an empty cup, and the kitten needs someone fully committed.  
+  - Call local animal shelters, rescues, or foster networks urgently. Many groups have volunteers trained to care for neonates.
+  - Social media can also help. Post a photo and explain the situation in case someone in your area is willing to take the kitten.  
+  - If nothing else, ask if a rescue can provide supplies or advice to help you in the short term while you search for someone to take over.
+
+You’ve already made a huge difference just by pulling it out of that dumpster and giving it this chance at life. Whatever happens next, you’ve done something good. That counts for so much. Let me know if you need help locating resources or even figuring out the next step.</div>
+  
+</article>
+    <footer>Exported from Mochi. Open this file in a browser or print it to save as PDF.</footer>
+  </main>
+</body>
+</html>
